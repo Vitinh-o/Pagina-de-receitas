@@ -1,0 +1,60 @@
+body{margin: 0;
+        padding: 0;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+
+#banner{background-color: #ff6b28 ;
+            text-align: center;
+            padding: 10px;}
+
+
+#imagemDeBolo{background-image: url(./images/hero_bolo.jpg);
+                background-size: cover;
+                height: 500px;}
+
+#corpoDoConteudo{overflow: hidden;
+                    width: 800px;
+                    margin: auto;
+                    }
+
+
+h1{color:  #ff6b28; }
+
+
+h2{color: #ff6b28;}
+
+.configuracaoLayout{
+                    margin: 5px;
+                    padding:50px;
+                    border-radius: 18px;
+}
+
+#ingredientes:hover{
+
+    cursor: url('./images/cursor_ingredientes.png'), pointer;
+    box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.205);}
+
+li{margin-top: 15px;}
+
+a{text-decoration: none;
+    background-color: #ff6b28;
+    color: white;
+    padding: 14px;
+    border-radius: 20px;}
+
+a:hover{background-color: #8d4f32;
+            cursor:  url(./images/cursor_ingredientes.png), pointer;}
+
+
+#modoDePreparo:hover{cursor: url(./images/cursor_preparo.png) , pointer;
+                        box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.205);}
+
+#instrucoes:hover{cursor: url(./images/cursor_intrucoes.png), pointer;
+                box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.205);}
+
+#footer{background-color: #ff6b28;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px;}
